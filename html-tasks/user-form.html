@@ -1,0 +1,54 @@
+<!-- Create a form with fields: Name (text), Email (email), Password (password). Add radio buttons for gender selection (Male, Female, Other). Add a dropdown (<select>) for selecting your country. Add a checkbox group for selecting hobbies. Add submit and reset button. -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Form</title>
+</head>
+<body>
+
+<h2>User Registration Form</h2>
+
+<form>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name"><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br><br>
+
+  <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password"><br><br>
+
+  <p>Gender:</p>
+  <input type="radio" id="male" name="gender" value="Male">
+  <label for="male">Male</label><br>
+
+  <input type="radio" id="female" name="gender" value="Female">
+  <label for="female">Female</label><br>
+
+  <input type="radio" id="other" name="gender" value="Other">
+  <label for="other">Other</label><br><br>
+
+  <label for="country">Country:</label><br>
+  <select id="country" name="country">
+    <option value="India">India</option>
+    <option value="USA">USA</option>
+    <option value="UK">UK</option>
+    <option value="Australia">Australia</option>
+  </select><br><br>
+
+  <p>Select Hobbies:</p>
+  <input type="checkbox" id="reading" name="hobby" value="Reading">
+  <label for="reading">Reading</label><br>
+
+  <input type="checkbox" id="gaming" name="hobby" value="Gaming">
+  <label for="gaming">Gaming</label><br>
+
+  <input type="checkbox" id="traveling" name="hobby" value="Traveling">
+  <label for="traveling">Traveling</label><br><br>
+
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+</form>
+
+</body>
+</html>

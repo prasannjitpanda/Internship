@@ -1,0 +1,10 @@
+# Ignore Orion-2.3 folder so it's not tracked by Git
+Orion-2.3/
+
+# Optional: Ignore system files (safe to keep)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Optional: Ignore VS Code settings (if you're using VS Code)
+.vscode/
