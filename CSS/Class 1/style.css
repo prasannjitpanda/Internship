@@ -1,0 +1,13 @@
+#heading{
+        background-color: blueviolet;
+        font-size: 30px;
+    }
+
+    #paragraph{
+        background-color: lightgreen;
+        font-size: 20px;
+    }
+    .para {
+        font-size: 20px;
+        color: red;
+    }

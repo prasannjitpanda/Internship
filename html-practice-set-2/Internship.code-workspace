@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "Orion-2.3",
+			"path": "../Orion-2.3"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Internship"
+	}
+}

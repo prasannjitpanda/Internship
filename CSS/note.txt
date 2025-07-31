@@ -1,0 +1,67 @@
+CSS stands for Cascading Style Sheet.
+CSS is a style sheet language use for describing the presentation of a document written in a markup language.(HTML)
+CSSS is used to add style to a web page.
+There are 3 way to add style or css of a web page.
+Inline css, Internal csss, External css
+
+INLINE CSS
+Adding style for a individual element with the help of style attribute.
+Syntax : <p style="font-size: 30px; font-weight:700; ">
+
+Internal CSS
+Used to add style multiple elements writting general styles with the help of style tag inside head tag.
+We need select us the select/target the element which we need to change to style.
+Syntax: <style> .classsName{
+    font-size: 20px;
+}
+#idName{
+    background-color: red;
+}
+</style>
+ Writting CSS in a separate CSS file and then connecting it to the HTML document which the help of Linked Tag.
+ We use linked tag inside the head tag to connect the External CSS.
+ Syntax: <link rel="stylesheet" href="./style.css">
+ Example: #heading{
+        background-color: blueviolet;
+        font-size: 30px;
+    }
+
+    SELECTORS IN CSS
+    CSS selectors are used to select the HTML element that we want to change style.
+    There are 6 types of selectors are there in CSS.
+
+    1. UNIVERSAL SELECTORS
+    It's used to select all the elements in HTML document and it's denoted by "*".
+    Example: *{
+        font-size: 25px;
+        background-color: lightblue;
+    }
+
+    2.ID SELECTORS
+    It's select the HTML element best on the given ID name.
+    ID name can be provided by using "ID" attribute.
+    ID name should be unique in a HTML document.
+    To select the ID names in CSS we use "#", which acts as ID selectors.
+    
+    3. CLASS SELECTORS
+    It's select HTML elements based on it given class name.
+    Class name should be provided into class attribute, class name should be duplicate.
+    To select the class name in css we use dot(.) thats acts as class selectors.
+
+    4.ELEMENT SELECTORS
+    Its used to select the elements based on their tag name.
+    Element selector selects all the elements which the specific tag name in the entire document.
+    Example: p {
+        background-color: bisque;
+    }
+
+    5.DESCENDANT SELECTORS
+    Its used to select specific child element within the parent element.
+
+    6.GROUP SELECTORS
+    Its used to select multiple elements in the HTML document.
+    Example: .box p, #head, #heading, .para{
+        background-color: blue;
+    }.box p, #head, #heading, .para{
+        background-color: blue;
+    }
