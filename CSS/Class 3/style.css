@@ -1,0 +1,27 @@
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center; /* Center children horizontally */
+    align-items: center; /* Center children vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+.child {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid blue;
+    flex: 1; /* Allow children to grow and fill the space */
+}
+
+nav {
+    height: 80px;
+    
+}
+
