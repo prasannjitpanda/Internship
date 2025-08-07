@@ -1,0 +1,42 @@
+<!-- Create three <div> elements and apply different display values: block, inline, inline-block. Observe the difference. -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Display Types Example</title>
+  <style>
+    .box {
+      padding: 10px;
+      margin: 10px;
+      background-color: lightblue;
+      border: 2px solid navy;
+    }
+
+    .block {
+      display: block;
+    }
+
+    .inline {
+      display: inline;
+    }
+
+    .inline-block {
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Display: Block</h2>
+  <div class="box block">Block Box</div>
+  <div class="box block">Another Block Box</div>
+
+  <h2>Display: Inline</h2>
+  <div class="box inline">Inline Box</div>
+  <div class="box inline">Another Inline Box</div>
+
+  <h2>Display: Inline-Block</h2>
+  <div class="box inline-block">Inline-Block Box</div>
+  <div class="box inline-block">Another Inline-Block Box</div>
+
+</body>
+</html>

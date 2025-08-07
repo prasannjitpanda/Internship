@@ -1,0 +1,42 @@
+<!-- Build a simple image gallery using CSS Grid:
+Display 6 images in 3 columns
+Add gap between grid items -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Image Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Simple Image Gallery</h1>
+
+  <div class="gallery">
+    <img src="https://cdn.pixabay.com/photo/2025/06/11/22/12/kackar-mountains-9655200_1280.jpg" alt="Image 1">
+    <img src="https://cdn.pixabay.com/photo/2024/12/29/00/12/dog-9297049_1280.jpg" alt="Image 2">
+    <img src="https://cdn.pixabay.com/photo/2025/07/09/11/36/block-9704503_1280.jpg" alt="Image 3">
+    <img src="https://cdn.pixabay.com/photo/2023/01/28/19/01/bird-7751561_1280.jpg" alt="Image 4">
+    <img src="https://cdn.pixabay.com/photo/2025/08/02/03/27/squirrel-9749860_1280.jpg" alt="Image 5">
+    <img src="https://cdn.pixabay.com/photo/2025/07/15/04/01/grapefruit-9715105_1280.jpg" alt="Image 6">
+  </div>
+
+</body>
+</html>

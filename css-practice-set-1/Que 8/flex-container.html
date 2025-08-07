@@ -1,0 +1,39 @@
+<!-- Create a flex container with three boxes inside it. Use display: flex and apply the following:
+Set justify-content to space-around
+Set align-items to center
+Set height of the container to 300px -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flex Container Example</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 300px;
+      background-color: #f0f0f0;
+      border: 2px solid #ccc;
+    }
+
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: lightcoral;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      color: white;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+  </div>
+</body>
+</html>
