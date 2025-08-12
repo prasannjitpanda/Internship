@@ -106,78 +106,39 @@ a {
     background-color: #cfe8ff;
     border-radius: 8px;
 }
-/* Section Styles */
-.section-light {
-    background-color: #f5f8fb;
-    padding: 80px 0;
-}
-.section-white {
-    background-color: #ffffff;
-    padding: 80px 0;
-}
-.section-container {
+.project-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
-    flex-wrap: wrap;
+    padding: 80px 10%;
+    background-color: #ffffff;
 }
-.section-container .reverse {
-    flex-direction: row-reverse;
+.project.text {
+    max-width: 20%;
 }
-
-.section-text {
-    flex: 1;
-    max-width: 300px;
-}
-.section-text h2 {
-    color:  #000;
-    font-size: 28px;
-    margin-bottom: 15px;
-}
-.section-text p {
-    color: #333;
-    font-size: 15px;
-    line-height: 1.6;
+.project-text h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000000;
     margin-bottom: 20px;
 }
-.section-image {
-    flex: 1;
-    display: flex;
-    justify-content: center;
+.project-text p {
+    font-size: 1rem;
+    color: #000000;
+    line-height: 1.5;
 }
-.image-placeholder {
-    width: 280px;
-    height: 180px;
-    background-color: #cfe8ff;
+.project-text .btn {
+    background-color: #002c5f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+}
+.project-image {
+    width: 45%;
+    height: 250px;
+    background-color: #cce4ff;
     border-radius: 8px;
 }
-
-/* Circular Icon Layout */
-.circle-icons {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: #f0f0f0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.center-icon {
-    font-size: 24px;
-    font-weight: bold;
-    position: absolute;
-}
-.dot {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    position: absolute;
-}
-.red { background: red; top: 0; left: 50%; transform: translateX(-50%); }
-.yellow { background: gold; top: 25%; left: 90%; transform: translateY(-50%, -50%); }
-.green { background: green; top: 75%; left: 90%; transform: translateY(-50%, -50%); }
-.blue { background: blue; bottom: 0; left: 50%; transform: translateX(-50%); }
-.lightblue { background: skyblue; top: 75%; left: 10%; transform: translateY(-50%, -50%); }
-.orange { background: orange; top: 25%; left: 10%; transform: translateY(-50%, -50%); }
